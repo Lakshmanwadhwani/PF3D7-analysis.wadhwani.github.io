@@ -26,4 +26,9 @@ queryname <- "query2"
 thequery <- paste("AC=",accession,sep="")
 query(`queryname`,`thequery`)
 
- see if a sequence was retrieved:seq <- getSequence(query2$req[[1]])closebank()return(seq)}closebank()}print(paste("ERROR: accession",accession,"was not found"))}Once you have copied and pasted the function getncbiseq() into R, you can use it to retrieve a sequen
+ #see if a sequence was retrieved:
+ seq <- getSequence(query2$req[[1]])
+ closebank()
+ return(seq)
+ }
+ closebank()}print(paste("ERROR: accession",accession,"was not found"))}Once you have copied and pasted the function getncbiseq() into R, you can use it to retrieve a sequen
