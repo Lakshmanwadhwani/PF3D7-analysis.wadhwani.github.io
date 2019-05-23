@@ -2,8 +2,8 @@
 #However we will load some essential packages for our needs
 #We will be installing bioconductor and seqinR 
 
-> source("http://bioconductor.org/biocLite.R")
-> biocLite()
+'> source("http://bioconductor.org/biocLite.R")'
+'> biocLite()'
 
 #Instead of going to the NCBI website to retrieve sequence data from the NCBI database, you can retrieve sequence
 data from NCBI directly from R, by using the SeqinR R package.
