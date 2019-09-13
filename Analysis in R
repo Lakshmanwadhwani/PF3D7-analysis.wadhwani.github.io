@@ -1,6 +1,7 @@
 #Assuming that R is installed,thus we skip installation instructions
-#However we will load some essential packages for our needs
-#We will be installing bioconductor and seqinR 
+#However we will load some essential packages for our needs. First open up the R program on your computer by clicking on the R icon.
+#We will be installing bioconductor. Bioconductor contains several R packages custom made for analysis of biological data.
+
 
 '> source("http://bioconductor.org/biocLite.R")'
 '> biocLite()'
