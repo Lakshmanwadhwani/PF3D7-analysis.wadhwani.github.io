@@ -4,4 +4,11 @@
 
 I am going to use the programming language R to do some basic statistcal analysis and then swithc to python to do some more advanced stuff like amino acid compostion etc.So lets delve right into it. Instructions for downloading R can be located in my R install folder. We would also need to install Bioconductor. Instruction that also can be located in the bioconductor folder. 
 
-First we would need to retrieve genome sequence data from NCBI. Please refer to my folder titled **P.Falciparum 3d7 download** for instructions. 
+First we would need to retrieve genome sequence data from NCBI. Please refer to my folder titled **P.Falciparum 3d7 download** for the fasta files. 
+The first step is going to the NCBI website 
+
+#LAKSH
+##LAKSH
+####LAKSH
+#####LAKSH
+######LAKSH
