@@ -29,3 +29,7 @@ The WordPad “Open” dialog will appear. Set “Files of type” to “All Doc
 
 ![NCBI nucleotide](word pad.png)
 
+Now we have some data to work with!
+
+:mosquito:
+
