@@ -18,7 +18,7 @@ menu that appears, and then choose FASTA from the “Format” menu that appears
 A box will pop up asking you what to name the file, and where to save it. You should give it a sensible name (eg.
 “PF3D7.fasta”) and save it in a place where you will remember (eg. in the “My Documents” folder is a good idea):
 
-![NCBI nucleotide](ncbi image2.png)
+![NCBI nucleotide](ncbi image3.png)
 
 We can now open the FASTA file containing the PF3D7 genome sequence using WordPad on your
 computer. To open WordPad, click on “Start” on the bottom left of your screen, click on “All Programs” in the
