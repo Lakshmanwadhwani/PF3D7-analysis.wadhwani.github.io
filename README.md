@@ -27,3 +27,5 @@ from the menu that appears next. WordPad should start up. In Wordpad, choose “
 The WordPad “Open” dialog will appear. Set “Files of type” to “All Documents” at the bottom of the WordPad
 “Open” dialog. You should see a list of files, now select the file that contains the PF3D7 sequence. The contents of the FASTA format file containing the PF3D7 sequence should now be displayed in WordPad:
 
+![NCBI nucleotide](word pad.png)
+
