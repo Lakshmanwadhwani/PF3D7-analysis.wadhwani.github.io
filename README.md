@@ -2,7 +2,7 @@
 
 ### Welcome to my page! I am really interested in mosquito's and the diseases they transmit. In my personal case it would be malaria which is transmitted by the anopheles mosquito, the definitive host of the plasmodium falciparum parasite. So lets take a peak at the genome of this unicellular protozoan parasite!
 
-I am going to use the programming language R to do some basic statistcal analysis and then swithc to python to do some more advanced stuff like amino acid compostion etc.So lets delve right into it. Instructions for downloading R can be located in my R install folder. We would also need to install Bioconductor. Instruction that also can be located in the bioconductor folder. Now we need to get our hands on some data! Fortunatel,y we have tons of that to analyze from various databases within the NCBI web portal.
+I am going to use the programming language R to do some basic statistcal analysis and then switch to python to do some more advanced stuff like amino acid compostion etc.So lets delve right into it. Instructions for downloading R can be located in my R install folder. We would also need to install Bioconductor. Instruction that also can be located in the bioconductor folder. Now we need to get our hands on some data! Fortunatel,y we have tons of that to analyze from various databases within the NCBI web portal.
 
 We begin the data acquisition process by going to the NCBI website [](https://www.ncbi.nlm.nih.gov).Once we get to the site locate the "all database" drop down menu to the left of the screen, click on the drop down menu, scroll down and select nucleotide.The Nucleotide database is a collection of sequences from several sources, including GenBank, RefSeq, TPA and PDB. Genome, gene and transcript sequence data provide the foundation for biomedical research and discovery.
 
@@ -16,7 +16,14 @@ To retrieve the DNA sequence for the PF3D7 genome as a FASTA format sequence fil
 click on “Send” at the top right of the CP017005 sequence record webpage, and then choose “File” in the pop-up
 menu that appears, and then choose FASTA from the “Format” menu that appears, and click on “Create file”.
 A box will pop up asking you what to name the file, and where to save it. You should give it a sensible name (eg.
-“den1.fasta”) and save it in a place where you will remember (eg. in the “My Documents” folder is a good idea):
+“PF3D7.fasta”) and save it in a place where you will remember (eg. in the “My Documents” folder is a good idea):
 
 ![NCBI nucleotide](ncbi image2.png)
+
+We can now open the FASTA file containing the PF3D7 genome sequence using WordPad on your
+computer. To open WordPad, click on “Start” on the bottom left of your screen, click on “All Programs” in the
+menu that appears, and then select “Accessories” from the menu that appears next, and then select “WordPad”
+from the menu that appears next. WordPad should start up. In Wordpad, choose “Open” from the “File” menu.
+The WordPad “Open” dialog will appear. Set “Files of type” to “All Documents” at the bottom of the WordPad
+“Open” dialog. You should see a list of files, now select the file that contains the PF3D7 sequence. The contents of the FASTA format file containing the PF3D7 sequence should now be displayed in WordPad:
 
