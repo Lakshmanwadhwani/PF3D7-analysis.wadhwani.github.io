@@ -29,7 +29,11 @@ The WordPad “Open” dialog will appear. Set “Files of type” to “All Doc
 
 ![Data image](word pad image.png)
 
-Now we have some data to work with! :smiley: :smiley: :smiley:
-
+Now we have some data to work with! We are going to conduct a few exercises in R with the data we now have available. In the following order; 
+1.Read our sequence data into R
+2.Sequence length
+3.Base composition
+4.GC content
+5.Scatter Plot of GC Content using a sliding window of 300 nucleotides
 
 
