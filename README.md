@@ -8,7 +8,9 @@ We begin the data acquisition process by going to the NCBI website [](https://ww
 
 ![NCBI nucleotide](ncbi image.jpg)
 
-For this mini project i would be analyzing the Plasmodium falciparum 3D7 mitochondrion, complete genome (PF3D7). To retrieve our data we would use the NCBI accession ID (CP017005) for PF3D7. Type CP017005 in the Search box at the top of the webpage, and press the “Search” button beside the Search box. This should bring up general information and meta data of the PF3D7 genome
+For this mini project i would be analyzing the Plasmodium falciparum 3D7 mitochondrion, complete genome (PF3D7). To retrieve our data we would use the NCBI accession ID (CP017005) for PF3D7. Type CP017005 in the Search box at the top of the webpage, and press the “Search” button beside the Search box. This should bring up general information and meta data of the PF3D7 genome.
+
+![NCBI nucleotide]()
 
 
 
