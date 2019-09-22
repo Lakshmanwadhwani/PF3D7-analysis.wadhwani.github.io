@@ -12,5 +12,11 @@ For this mini project i would be analyzing the Plasmodium falciparum 3D7 mitocho
 
 ![NCBI nucleotide](ncbi image1.png)
 
+To retrieve the DNA sequence for the PF3D7 genome as a FASTA format sequence file,
+click on “Send” at the top right of the CP017005 sequence record webpage, and then choose “File” in the pop-up
+menu that appears, and then choose FASTA from the “Format” menu that appears, and click on “Create file”.
+A box will pop up asking you what to name the file, and where to save it. You should give it a sensible name (eg.
+“den1.fasta”) and save it in a place where you will remember (eg. in the “My Documents” folder is a good idea):
 
+![NCBI nucleotide](ncbi image2.png)
 
