@@ -6,4 +6,4 @@
 '> source("http://bioconductor.org/biocLite.R")'
 '> biocLite()'
 
-#Lets get to work
+#Lets get to work. The **Readme** file should contain all the necceasary information acquiring the data and the tasks ahead.Fi
