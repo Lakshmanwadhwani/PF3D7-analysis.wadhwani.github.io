@@ -6,4 +6,4 @@
 '> source("http://bioconductor.org/biocLite.R")'
 '> biocLite()'
 
-# Now we will need to get our hands on some good old data.  You can easily retrieve DNA or protein sequence data from the NCBI Sequence Database via its website www.ncbi.nlm.nih.gov. For this excercise we are going to take a look at the Plasmodium falciparum 3D7 mitochondrion, complete genome. 
+#Lets get to work
