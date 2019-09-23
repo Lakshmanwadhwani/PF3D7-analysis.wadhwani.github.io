@@ -7,8 +7,4 @@
 '> biocLite()'
 
 #Lets get to work. The **Readme** file should contain all the necceasary information acquiring the data and the tasks ahead.
-- #Read sequence data into R
-```R
-pf3d7 <- read.fasta(file = "pf3d7.1.fasta")
-p.falciparumseq <- pf3d7[[1]]
-```
+- #Read sequence data into R; `pf3d7 <- read.fasta(file = "pf3d7.1.fasta")`
