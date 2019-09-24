@@ -7,6 +7,48 @@
 '> biocLite()'
 
 #Lets get to work. The **Readme** file should contain all the necceasary information acquiring the data and the tasks ahead.
--Read sequence data into R; `pf3d7 <- read.fasta(file = "pf3d7.1.fasta")`
-:smiley:
+
+#Load seqinr package
+`library("seqinr")`
+
+#Read in the file "pf3d7.1.fasta".
+`pf3d7 <- read.fasta(file = "pf3d7.1.fasta")`
+
+#Put the sequence in a vector called p.falciparumseq
+`p.falciparumseq <- pf3d7[[1]]`
+
+#obtain the length of the genome sequence, using the length() function, typing:
+`length(p.falciparumseq)`
+`[1] 5967`  **#The complete genome of P.falciparum is 5967bp long**
+
+#Lets look at base composition calling the table function
+ `table( p.falciparumseq)`
+ 
+#Gives us the break down of A,C,G,T in our sequence:
+```p.falciparumseq
+   a    c    g    t 
+1933  936  949 2149
+```
+#Lets look at GC content calling the the GC function
+`GC(p.falciparumseq)`
+`[1] 0.3159041` #Multiply this value by 100 to give us %GC. **31.59%**
+
+#Lets conduct a sliding window analysis of GC content for every 1000 nucleotides
+`starts <- seq(1, length(p.falciparumseq)-1000, by = 1000`
+`n <- length(starts)`  #Find the length of the vector "starts"
+`chunkGCs <- numeric(n)` #Make a vector of the same length as vector "starts",but just containing zeroes
+
+```for (i in 1:n) {
++ chunk <- p.falciparumseq[starts[i]:(starts[i]+999)]
++ chunkGC <- GC(chunk)
++ print(chunkGC)
++ chunkGCs[i] <- chunkGC
++ }```
+
+#Output that needs to be multiplied by 100 to get the %
+```[1] 0.325
+   [1] 0.324
+   [1] 0.282
+   [1] 0.284
+   [1] 0.287```
 
